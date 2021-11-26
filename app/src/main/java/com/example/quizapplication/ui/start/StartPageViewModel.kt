@@ -14,8 +14,10 @@ class StartPageViewModel @Inject constructor(private val userPreference: UserPre
         if(userName.length < MINIMUM_PASSWORD_LENGTH) {
             error.invoke()
         }else{
-            userPreference.saveName(userName)
-            userPreference.currentUser(true)
+            with(userPreference){
+                saveName(userName)
+                currentUser(true)
+            }
             navigation?.invoke()
         }
     }
