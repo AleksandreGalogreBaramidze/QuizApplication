@@ -2,7 +2,7 @@
     <string name="app_name">QuizApplication</string>
     <string name="start">Start</string>
     <string name="quiz">ქუიზი</string>
-    <string name="next_on_georgian">შემდეგი</string>
+    <string name="next">შემდეგი</string>
     <string name="start_quiz">ქვიზის დაწყება</string>
     <string name="first_quiz">ჩემი პირველი ქუიზი</string>
     <string name="enter_your_name">შეიყვანეთ თქვენი სახელი</string>
