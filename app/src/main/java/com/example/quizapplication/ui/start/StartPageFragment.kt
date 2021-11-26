@@ -16,26 +16,19 @@ class StartPageFragment : BaseFragment<StartPageFragmentBinding, StartPageViewMo
     override fun getViewModel() = StartPageViewModel::class.java
     override fun initFragment(viewModel: StartPageViewModel) {
         startAnimation()
-        setListeners(viewModel)
-
-    }
-    private fun startAnimation(){
-        binding.root.startAnimation(R.anim.fade_in)
-    }
-    private fun setListeners(viewModel: StartPageViewModel){
         binding.nextPageButton.setOnClickListener {
-            if (binding.userNameEditText.text.length < MINIMUM_PASSWORD_LENGTH){
-                binding.userNameEditText.error = getString(R.string.passwordErrorMessage)
-            }else {
-                viewModel.saveUserName(binding.userNameEditText.text.toString())
-                viewModel.logUser()
-                findNavController().navigate(R.id.action_startPageFragment_to_homeFragment)
+            with(binding) {
+                viewModel.validateUserName(userNameEditText.text.toString(), {
+                    findNavController().navigate(R.id.action_startPageFragment_to_homeFragment)
+                }, {
+                    userNameEditText.error = getString(R.string.passwordErrorMessage)
+                })
             }
         }
 
     }
 
-    companion object{
-        private const val MINIMUM_PASSWORD_LENGTH = 3
+    private fun startAnimation() {
+        binding.root.startAnimation(R.anim.fade_in)
     }
 }

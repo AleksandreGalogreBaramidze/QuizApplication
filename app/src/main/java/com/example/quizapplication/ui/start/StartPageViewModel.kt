@@ -7,15 +7,20 @@ import javax.inject.Inject
 
 
 @HiltViewModel
-class StartPageViewModel @Inject constructor(private val userPreference: UserPreference): ViewModel() {
+class StartPageViewModel @Inject constructor(private val userPreference: UserPreference) :
+    ViewModel() {
 
-    fun saveUserName(userName:String){
-        userPreference.saveName(userName)
+    fun validateUserName(userName: String, navigation: (() -> Unit?)?, error: () -> Unit) {
+        if(userName.length < MINIMUM_PASSWORD_LENGTH) {
+            error.invoke()
+        }else{
+            userPreference.saveName(userName)
+            userPreference.currentUser(true)
+            navigation?.invoke()
+        }
     }
 
-    fun logUser(){
-        userPreference.currentUser(true)
+    companion object {
+        private const val MINIMUM_PASSWORD_LENGTH = 3
     }
-
-
 }
