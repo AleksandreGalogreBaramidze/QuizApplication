@@ -21,7 +21,7 @@ class StartPageFragment : BaseFragment<StartPageFragmentBinding, StartPageViewMo
                 viewModel.validateUserName(userNameEditText.text.toString(), {
                     findNavController().navigate(R.id.action_startPageFragment_to_homeFragment)
                 }, {
-                    userNameEditText.error = getString(R.string.passwordErrorMessage)
+                    userNameEditText.error = getString(R.string.password_error_message)
                 })
             }
         }

@@ -7,5 +7,5 @@
     <string name="first_quiz">ჩემი პირველი ქუიზი</string>
     <string name="enter_your_name">შეიყვანეთ თქვენი სახელი</string>
     <string name="name">სახელი</string>
-    <string name="passwordErrorMessage">სახელი უნდა აღემატებოდეს 3 სიმბოლოს</string>
+    <string name="password_error_message">სახელი უნდა აღემატებოდეს 3 სიმბოლოს</string>
 </resources>
