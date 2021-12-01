@@ -5,7 +5,9 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import com.example.quizapplication.databinding.QuestionsFragmentBinding
 import com.example.quizapplication.ui.basefragment.BaseFragment
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class QuestionsFragment : BaseFragment<QuestionsFragmentBinding, QuestionsViewModel>() {
     override val inflater: (LayoutInflater, ViewGroup?, Boolean) -> QuestionsFragmentBinding get() = QuestionsFragmentBinding::inflate
     override fun getViewModel() = QuestionsViewModel::class.java

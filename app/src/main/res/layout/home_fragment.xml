@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".ui.home.HomeFragment">
 
-    <com.example.quizapplication.ui.costumview.RectCustomView
+    <com.example.quizapplication.ui.costum_view.RectCustomView
         android:id="@+id/bgCustomView"
         android:layout_width="match_parent"
         android:layout_height="0dp"

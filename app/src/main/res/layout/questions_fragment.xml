@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".ui.questions.QuestionsFragment">
 
-    <com.example.quizapplication.ui.costumview.RectCustomView
+    <com.example.quizapplication.ui.costum_view.RectCustomView
         android:id="@+id/bgCustomView"
         android:layout_width="match_parent"
         android:layout_height="200dp"
@@ -67,7 +67,7 @@
         android:layout_height="60dp"
         android:layout_marginTop="15dp"
         android:background="@drawable/start_page_button_bg"
-        android:text="@string/shemdegi"
+        android:text="@string/next"
         android:textColor="@color/white"
         android:textSize="17sp"
         android:textStyle="bold"
