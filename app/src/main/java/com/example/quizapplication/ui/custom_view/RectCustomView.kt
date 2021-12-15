@@ -1,4 +1,4 @@
-package com.example.quizapplication.ui.costum_view
+package com.example.quizapplication.ui.custom_view
 
 import android.content.Context
 import android.content.res.TypedArray

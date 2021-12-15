@@ -1,14 +1,19 @@
 package com.example.quizapplication.ui.adapters
 
+import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.quizapplication.databinding.TopicItemBinding
+import com.example.quizapplication.models.Quiz
+import com.example.quizapplication.models.QuizItem
+import com.example.quizapplication.util.getSubjectId
 
 class HomeRecyclerAdapter : RecyclerView.Adapter<HomeRecyclerAdapter.ViewHolder>() {
-
-    class ViewHolder(binding: TopicItemBinding) : RecyclerView.ViewHolder(binding.root)
-
+    private var data = mutableListOf<QuizItem>()
+    lateinit var getSubjectId : getSubjectId
+    private lateinit var item: QuizItem
+    class ViewHolder(val binding: TopicItemBinding) : RecyclerView.ViewHolder(binding.root)
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         return ViewHolder(
             TopicItemBinding.inflate(
@@ -19,12 +24,22 @@ class HomeRecyclerAdapter : RecyclerView.Adapter<HomeRecyclerAdapter.ViewHolder>
         )
     }
 
-    override fun getItemCount(): Int {
-        TODO("Not yet implemented")
-    }
-
+    override fun getItemCount() = data.size
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        TODO("Not yet implemented")
+        item = data[position]
+        with(holder.binding){
+            subjectOptionTitleTextView.text = item.quizTitle
+            subjectOptionDescriptionTextView.text = item.quizDescription
+            subjectOptionNextButton.setOnClickListener {
+                getSubjectId(position)
+            }
+        }
     }
 
+    @SuppressLint("NotifyDataSetChanged")
+    fun setData(data: Quiz) {
+        this.data.clear()
+        this.data = data.toMutableList()
+        notifyDataSetChanged()
+    }
 }
