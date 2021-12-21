@@ -1,14 +1,14 @@
 package com.example.quizapplication.ui.home
 
-
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.quizapplication.R
 import com.example.quizapplication.databinding.HomeFragmentBinding
-import com.example.quizapplication.extensions.observe
 import com.example.quizapplication.extensions.startAnimation
+import com.example.quizapplication.extensions.observe
+import com.example.quizapplication.extensions.startActionAfterAnimation
 import com.example.quizapplication.ui.adapters.HomeRecyclerAdapter
 import com.example.quizapplication.ui.basefragment.BaseFragment
 import dagger.hilt.android.AndroidEntryPoint
@@ -41,7 +41,9 @@ class HomeFragment : BaseFragment<HomeFragmentBinding, HomeViewModel>() {
             adapter = homeRecyclerAdapter
         }
         homeRecyclerAdapter.getSubjectId = {
-            findNavController().navigate(HomeFragmentDirections.actionHomeFragmentToQuestionsFragment(it, userName))
+            binding.root.startActionAfterAnimation(R.anim.fade_out){
+                findNavController().navigate(HomeFragmentDirections.actionHomeFragmentToQuestionsFragment(it, userName))
+            }
         }
     }
 

@@ -6,7 +6,7 @@ import androidx.lifecycle.ViewModel
 import com.example.quizapplication.R
 import com.example.quizapplication.models.Quiz
 import com.example.quizapplication.repository.JsonRepositoryImplementation
-import com.example.quizapplication.user_preferences.UserPreference
+import com.example.quizapplication.user_preference.UserPreference
 import com.example.quizapplication.util.ResProvider
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject

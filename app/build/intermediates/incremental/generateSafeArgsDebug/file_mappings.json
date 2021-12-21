@@ -1,0 +1,1 @@
+[{"navFile":"src\\main\\res\\navigation\\main_nav.xml","javaFiles":["com.example.quizapplication.ui.splashscreen.SplashFragmentDirections","com.example.quizapplication.ui.start.StartPageFragmentDirections","com.example.quizapplication.ui.home.HomeFragmentDirections","com.example.quizapplication.ui.questions.QuestionsFragmentArgs"]}]

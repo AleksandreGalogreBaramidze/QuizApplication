@@ -3,7 +3,7 @@ package com.example.quizapplication.ui.splashscreen
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.example.quizapplication.user_preferences.UserPreference
+import com.example.quizapplication.user_preference.UserPreference
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 

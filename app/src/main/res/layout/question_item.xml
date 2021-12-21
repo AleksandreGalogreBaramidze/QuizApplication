@@ -8,21 +8,21 @@
     app:cardCornerRadius="18dp"
     app:cardElevation="20dp"
     >
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="horizontal"
-        >
+        android:orientation="horizontal">
 
-        <ImageView
-            android:id="@+id/checkerImageView"
-            android:layout_width="66dp"
+        <CheckBox
+            android:id="@+id/answersCheckBox"
+            android:layout_width="55dp"
             android:layout_height="55dp"
             android:layout_gravity="center"
             android:layout_marginStart="15dp"
-            app:srcCompat="@drawable/unchecked"
-            />
+            android:background="@drawable/checkbox"
+            android:buttonTint="@android:color/transparent"
+            android:textColor="@color/black" />
+
 
         <TextView
             android:id="@+id/answerTextView"
@@ -34,8 +34,5 @@
             android:textColor="@color/black"
             android:textSize="24sp"
             tools:text="Java" />
-
-
     </LinearLayout>
-
 </androidx.cardview.widget.CardView>

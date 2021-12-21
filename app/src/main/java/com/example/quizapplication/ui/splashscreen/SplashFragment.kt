@@ -9,6 +9,7 @@ import com.example.quizapplication.R
 import com.example.quizapplication.databinding.SplashFragmentBinding
 import com.example.quizapplication.extensions.startAnimation
 import com.example.quizapplication.extensions.observe
+import com.example.quizapplication.extensions.startActionAfterAnimation
 import com.example.quizapplication.ui.basefragment.BaseFragment
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.delay
@@ -24,6 +25,7 @@ class SplashFragment : BaseFragment<SplashFragmentBinding, SplashViewModel>() {
             logo.startAnimation(R.anim.fade_out)
             splashBg.startAnimation(R.anim.fade_out)
         }
+
         lifecycleScope.launch {
             delay(SPLASH_DELAY)
             observer(viewModel)
@@ -33,9 +35,12 @@ class SplashFragment : BaseFragment<SplashFragmentBinding, SplashViewModel>() {
         observe(viewModel.isLogged) { status ->
             findNavController().navigate(if(status){
                 R.id.action_splashFragment_to_homeFragment
-            }else{R.id.action_splashFragment_to_startPageFragment})
+            }else{
+                R.id.action_splashFragment_to_startPageFragment
+            })
         }
     }
+
     companion object{
         private const val SPLASH_DELAY = 2000L
     }

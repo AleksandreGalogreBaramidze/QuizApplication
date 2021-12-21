@@ -1,0 +1,154 @@
+[
+    {
+        "merged": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\build\\intermediates\\merged_res\\debug\\layout_start_page_fragment.xml.flat",
+        "source": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\src\\main\\res\\layout\\start_page_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\build\\intermediates\\merged_res\\debug\\layout_question_item.xml.flat",
+        "source": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\src\\main\\res\\layout\\question_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\build\\intermediates\\merged_res\\debug\\layout_item.xml.flat",
+        "source": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\src\\main\\res\\layout\\item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\build\\intermediates\\merged_res\\debug\\drawable_start_page_button_bg.xml.flat",
+        "source": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\src\\main\\res\\drawable\\start_page_button_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\build\\intermediates\\merged_res\\debug\\navigation_main_nav.xml.flat",
+        "source": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\src\\main\\res\\navigation\\main_nav.xml"
+    },
+    {
+        "merged": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\build\\intermediates\\merged_res\\debug\\layout_topic_item.xml.flat",
+        "source": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\src\\main\\res\\layout\\topic_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_back_arrow.xml.flat",
+        "source": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\src\\main\\res\\drawable\\ic_back_arrow.xml"
+    },
+    {
+        "merged": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\build\\intermediates\\merged_res\\debug\\layout_splash_fragment.xml.flat",
+        "source": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\src\\main\\res\\layout\\splash_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\build\\intermediates\\merged_res\\debug\\drawable_checked.png.flat",
+        "source": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\src\\main\\res\\drawable\\checked.png"
+    },
+    {
+        "merged": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\build\\intermediates\\merged_res\\debug\\drawable_splash_screen_bg.xml.flat",
+        "source": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\src\\main\\res\\drawable\\splash_screen_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\build\\intermediates\\merged_res\\debug\\drawable_checkbox.xml.flat",
+        "source": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\src\\main\\res\\drawable\\checkbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_image.xml.flat",
+        "source": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\src\\main\\res\\drawable\\ic_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\build\\intermediates\\merged_res\\debug\\drawable_edit_text_bg.xml.flat",
+        "source": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\src\\main\\res\\drawable\\edit_text_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\build\\intermediates\\merged_res\\debug\\drawable_logo.png.flat",
+        "source": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\src\\main\\res\\drawable\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\build\\intermediates\\merged_res\\debug\\layout_dialog.xml.flat",
+        "source": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\src\\main\\res\\layout\\dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\build\\intermediates\\merged_res\\debug\\anim_explosion.xml.flat",
+        "source": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\src\\main\\res\\anim\\explosion.xml"
+    },
+    {
+        "merged": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\build\\intermediates\\merged_res\\debug\\layout_questions_fragment.xml.flat",
+        "source": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\src\\main\\res\\layout\\questions_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\build\\intermediates\\merged_res\\debug\\drawable_unchecked.png.flat",
+        "source": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\src\\main\\res\\drawable\\unchecked.png"
+    },
+    {
+        "merged": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_log_out.xml.flat",
+        "source": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\src\\main\\res\\drawable\\ic_log_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\build\\intermediates\\merged_res\\debug\\layout_home_fragment.xml.flat",
+        "source": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\src\\main\\res\\layout\\home_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\build\\intermediates\\merged_res\\debug\\anim_fade_out.xml.flat",
+        "source": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\src\\main\\res\\anim\\fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\build\\intermediates\\merged_res\\debug\\anim_fade_in.xml.flat",
+        "source": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\src\\main\\res\\anim\\fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\build\\intermediates\\merged_res\\debug\\drawable_circle.xml.flat",
+        "source": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\src\\main\\res\\drawable\\circle.xml"
+    }
+]

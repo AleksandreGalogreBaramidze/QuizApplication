@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\questions_fragment.xml",
+        "source": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\src\\main\\res\\layout\\questions_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\dialog.xml",
+        "source": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\src\\main\\res\\layout\\dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\splash_fragment.xml",
+        "source": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\src\\main\\res\\layout\\splash_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\topic_item.xml",
+        "source": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\src\\main\\res\\layout\\topic_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item.xml",
+        "source": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\src\\main\\res\\layout\\item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\start_page_fragment.xml",
+        "source": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\src\\main\\res\\layout\\start_page_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\home_fragment.xml",
+        "source": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\src\\main\\res\\layout\\home_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\question_item.xml",
+        "source": "C:\\Users\\Aleksandre\\Documents\\GitHub\\secret_one\\app\\src\\main\\res\\layout\\question_item.xml"
+    }
+]

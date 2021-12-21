@@ -10,3 +10,11 @@ fun View.startAnimation(anim: Int) {
     this.startAnimation(animation)
 }
 
+fun View.startActionAfterAnimation(anim: Int, action: () -> Unit) {
+    val animation = AnimationUtils.loadAnimation(context, anim)
+    if(animation.hasEnded()){
+        action()
+    }
+    this.startAnimation(animation)
+}
+
