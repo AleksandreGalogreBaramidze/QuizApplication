@@ -31,14 +31,12 @@ class SplashFragment : BaseFragment<SplashFragmentBinding, SplashViewModel>() {
     }
     private fun observer(viewModel: SplashViewModel){
         observe(viewModel.isLogged) { status ->
-            if(status){
-                findNavController().navigate(R.id.action_splashFragment_to_homeFragment)
-            }else{
-                findNavController().navigate(R.id.action_splashFragment_to_startPageFragment)
-            }
+            findNavController().navigate(if(status){
+                R.id.action_splashFragment_to_homeFragment
+            }else{R.id.action_splashFragment_to_startPageFragment})
         }
     }
     companion object{
-        const val SPLASH_DELAY = 2000L
+        private const val SPLASH_DELAY = 2000L
     }
 }

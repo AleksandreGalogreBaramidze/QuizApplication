@@ -38,8 +38,10 @@ class HomeRecyclerAdapter : RecyclerView.Adapter<HomeRecyclerAdapter.ViewHolder>
 
     @SuppressLint("NotifyDataSetChanged")
     fun setData(data: Quiz) {
-        this.data.clear()
-        this.data = data.toMutableList()
+        with(this.data){
+            clear()
+            data.toMutableList()
+        }
         notifyDataSetChanged()
     }
 }
