@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".ui.home.HomeFragment">
 
-    <com.example.quizapplication.ui.costum_view.RectCustomView
+    <com.example.quizapplication.ui.custom_view.RectCustomView
         android:id="@+id/bgCustomView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -20,7 +20,7 @@
         />
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cardView"
+        android:id="@+id/homeWelcomeCardView"
         android:layout_marginTop="60dp"
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -33,18 +33,18 @@
         app:layout_constraintWidth_percent="0.81" />
 
     <TextView
-        android:id="@+id/NameTextView"
+        android:id="@+id/greetingTextView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:elevation="16dp"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="21sp"
-        app:layout_constraintBottom_toBottomOf="@id/cardView"
-        app:layout_constraintEnd_toEndOf="@id/cardView"
-        app:layout_constraintStart_toStartOf="@id/cardView"
-        app:layout_constraintTop_toTopOf="@id/cardView"
-         />
+        app:layout_constraintBottom_toBottomOf="@id/homeWelcomeCardView"
+        app:layout_constraintEnd_toEndOf="@id/homeWelcomeCardView"
+        app:layout_constraintStart_toStartOf="@id/homeWelcomeCardView"
+        app:layout_constraintTop_toTopOf="@id/homeWelcomeCardView"
+        />
 
     <TextView
         android:id="@+id/quizzesTV"
@@ -56,10 +56,10 @@
         android:textColor="@color/black"
         android:textSize="21sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/cardView" />
+        app:layout_constraintTop_toBottomOf="@id/homeWelcomeCardView" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/quizRecycler"
+        android:id="@+id/subjectsRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginTop="10dp"
@@ -69,7 +69,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/quizzesTV"
-         />
+        android:layout_marginBottom="70dp"
+        />
 
-
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/logOutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/button_color"
+        android:src="@drawable/ic_log_out"
+        app:borderWidth="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:tint="@color/white" />
 </androidx.constraintlayout.widget.ConstraintLayout>

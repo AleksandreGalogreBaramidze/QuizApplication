@@ -3,7 +3,24 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main_nav"
-    app:startDestination="@id/startPageFragment">
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.quizapplication.ui.splashscreen.SplashFragment"
+        android:label="splash_fragment"
+        tools:layout="@layout/splash_fragment" >
+        <action
+            android:id="@+id/action_splashFragment_to_startPageFragment"
+            app:destination="@id/startPageFragment"
+            app:popUpTo="@id/main_nav"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_splashFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/main_nav"
+            app:popUpToInclusive="true" />
+    </fragment>
 
     <fragment
         android:id="@+id/startPageFragment"
@@ -11,7 +28,9 @@
         android:label="StartPageFragment" >
         <action
             android:id="@+id/action_startPageFragment_to_homeFragment"
-            app:destination="@id/homeFragment" />
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/main_nav"
+            app:popUpToInclusive="true" />
     </fragment>
     <fragment
         android:id="@+id/homeFragment"
@@ -21,10 +40,21 @@
         <action
             android:id="@+id/action_homeFragment_to_questionsFragment"
             app:destination="@id/questionsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_startPageFragment"
+            app:destination="@id/startPageFragment" />
     </fragment>
     <fragment
         android:id="@+id/questionsFragment"
         android:name="com.example.quizapplication.ui.questions.QuestionsFragment"
         android:label="questions_fragment"
-        tools:layout="@layout/questions_fragment" />
+        tools:layout="@layout/questions_fragment">
+        <argument
+            android:name="id"
+            app:argType="integer" />
+        <argument
+            android:name="userName"
+            app:argType="string" />
+    </fragment>
+
 </navigation>

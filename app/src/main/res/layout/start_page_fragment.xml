@@ -22,7 +22,7 @@
             app:layout_constraintVertical_bias="0.429"
             app:srcCompat="@drawable/ic_image" />
 
-        <com.example.quizapplication.ui.costum_view.RectCustomView
+        <com.example.quizapplication.ui.custom_view.RectCustomView
             android:id="@+id/bgCustomView"
             android:layout_width="match_parent"
             android:layout_height="0dp"
@@ -35,7 +35,7 @@
             app:layout_constraintTop_toTopOf="parent"
              />
 
-        <com.example.quizapplication.ui.costum_view.RectCustomView
+        <com.example.quizapplication.ui.custom_view.RectCustomView
             android:id="@+id/bgCustomViewUpside"
             android:layout_width="match_parent"
             android:layout_height="413dp"
