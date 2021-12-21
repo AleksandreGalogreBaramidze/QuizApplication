@@ -16,19 +16,22 @@ class StartPageFragment : BaseFragment<StartPageFragmentBinding, StartPageViewMo
     override fun getViewModel() = StartPageViewModel::class.java
     override fun initFragment(viewModel: StartPageViewModel) {
         startAnimation()
+
         binding.nextPageButton.setOnClickListener {
             with(binding) {
                 viewModel.validateUserName(userNameEditText.text.toString(), {
                     findNavController().navigate(R.id.action_startPageFragment_to_homeFragment)
                 }, {
-                    userNameEditText.error = getString(R.string.password_error_message)
+                    userNameEditText.error = getString(R.string.passwordErrorMessage)
                 })
             }
         }
-
     }
 
     private fun startAnimation() {
         binding.root.startAnimation(R.anim.fade_in)
     }
+
+
+
 }
