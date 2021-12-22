@@ -12,11 +12,12 @@
 
         <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/imageImageView"
-            android:layout_width="match_parent"
+            android:layout_width="409dp"
             android:layout_height="297dp"
             android:layout_margin="35dp"
             app:layout_constraintBottom_toTopOf="@id/bgCustomViewUpside"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.538"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/bgCustomView"
             app:layout_constraintVertical_bias="0.429"
@@ -32,8 +33,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHeight_percent="0.06"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-             />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <com.example.quizapplication.ui.custom_view.RectCustomView
             android:id="@+id/bgCustomViewUpside"
@@ -45,8 +45,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHeight_percent="0.35"
             app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-             />
+            app:layout_constraintStart_toStartOf="parent" />
 
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/text"
@@ -85,7 +84,7 @@
             app:layout_constraintEnd_toEndOf="@id/text2"
             app:layout_constraintStart_toStartOf="@id/text2"
             app:layout_constraintTop_toBottomOf="@id/text2"
-            app:layout_constraintWidth_percent="0.5" />
+            app:layout_constraintWidth_percent="0.5"/>
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/nextPageButton"
@@ -117,3 +116,4 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.core.widget.NestedScrollView>
+
